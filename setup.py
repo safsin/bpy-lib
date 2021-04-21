@@ -10,7 +10,7 @@ setup(name='bpy2',
       url='https://github.com/bcongdon/bpy_lambda',
       package_dir={"": "src"},
       packages=find_packages(where="src"),
-      package_data={"": ["2.79", "*.so"]},
+      package_data={"": ["*"]},
       include_package_data=True,
       python_requires=">=3.6"
       )
